@@ -132,6 +132,11 @@ dd {
     font-size: 120%;
     width: 100%;
     padding: 3%;
+    cursor: pointer;
+}
+.calculator input[type="button"]:active {
+    border: 2px solid silver;
+    background-color: darkseagreen;
 }
 .calculator {
     background-color: lightblue;
